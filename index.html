@@ -1,338 +1,96 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE HTML>
+<!--
+	Identity by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Grant Pfeifer</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-loading">
 
-<head>
+		<!-- Wrapper -->
+			<div id="wrapper">
 
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+				<!-- Main -->
+					<section id="main">
+						<header>
+							<span class="avatar"><img src="images/avatar.jpg" alt="" /></span>
+							<h1>Grant Pfeifer</h1>
+							<p>Computer Engineering Major</p>
+							<p>Ohio Northern University</p>
+						</header>
+						<!--
+						<hr />
+						<h2>Extra Stuff!</h2>
+						<form method="post" action="#">
+							<div class="field">
+								<input type="text" name="name" id="name" placeholder="Name" />
+							</div>
+							<div class="field">
+								<input type="email" name="email" id="email" placeholder="Email" />
+							</div>
+							<div class="field">
+								<div class="select-wrapper">
+									<select name="department" id="department">
+										<option value="">Department</option>
+										<option value="sales">Sales</option>
+										<option value="tech">Tech Support</option>
+										<option value="null">/dev/null</option>
+									</select>
+								</div>
+							</div>
+							<div class="field">
+								<textarea name="message" id="message" placeholder="Message" rows="4"></textarea>
+							</div>
+							<div class="field">
+								<input type="checkbox" id="human" name="human" /><label for="human">I'm a human</label>
+							</div>
+							<div class="field">
+								<label>But are you a robot?</label>
+								<input type="radio" id="robot_yes" name="robot" /><label for="robot_yes">Yes</label>
+								<input type="radio" id="robot_no" name="robot" /><label for="robot_no">No</label>
+							</div>
+							<ul class="actions">
+								<li><a href="#" class="button">Get Started</a></li>
+							</ul>
+						</form>
+						<hr />
+						-->
+						<footer>
+							<ul class="icons">
+								<li><a href="https://drive.google.com/file/d/1_IpRQC3B9AN4or3uLp1t8G888M6aNSGv/view?usp=sharing" target="_blank" class="fa-file">Resume</a></li>
+								<li><a href="mailto:g-pfeifer@onu.edu" target="_blank" class="fa-envelope">Email</a></li>
+								<li><a href="https://wetransfer.com/?to=g-pfeifer@onu.edu" target="_blank" class="fa-upload">Upload Files</a></li>
+							</ul>
+						</footer>
+					</section>
 
-    <title>Grant Pfeifer</title>
+				<!-- Footer -->
+					<footer id="footer">
+						<ul class="copyright">
+							<li>&copy; Grant Pfeifer 2018</li>
+						</ul>
+					</footer>
 
-    <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+			</div>
 
-    <!-- Custom CSS -->
-    <link href="css/stylish-portfolio.css" rel="stylesheet">
+		<!-- Scripts -->
+			<!--[if lte IE 8]><script src="assets/js/respond.min.js"></script><![endif]-->
+			<script>
+				if ('addEventListener' in window) {
+					window.addEventListener('load', function() { document.body.className = document.body.className.replace(/\bis-loading\b/, ''); });
+					document.body.className += (navigator.userAgent.match(/(MSIE|rv:11\.0)/) ? ' is-ie' : '');
+				}
+			</script>
 
-    <!-- Custom Fonts -->
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
-</head>
-
-<body>
-
-    <!-- Navigation -->
-    <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
-    <nav id="sidebar-wrapper">
-        <ul class="sidebar-nav">
-            <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
-            <li class="sidebar-brand">
-                <a href="#top" onclick=$("#menu-close").click();>Start Bootstrap</a>
-            </li>
-            <li>
-                <a href="#top" onclick=$("#menu-close").click();>Home</a>
-            </li>
-            <li>
-                <a href="#about" onclick=$("#menu-close").click();>About</a>
-            </li>
-            <li>
-                <a href="#education" onclick=$("#menu-close").click();>Education</a>
-            </li>
-            <li>
-                <a href="#workexperience" onclick=$("#menu-close").click();>Work Experience</a>
-            </li>
-            <li>
-                <a href="#contact" onclick=$("#menu-close").click();>Contact</a>
-            </li>
-        </ul>
-    </nav>
-
-    <!-- Header -->
-    <header id="top" class="header">
-        <div class="text-vertical-center">
-          <h1>Grant Pfeifer</h1>
-          <h3>Computer Engineer</h3>
-            <a href="#about" class="btn btn-dark btn-lg">About me</a>
-        </div>
-    </header>
-
-    <!-- About -->
-    <section id="about" class="about">
-        <div class="container">
-                    <div class="row">
-                        <div class="col-md-6 col-sm-6">
-                            <div>
-                                <h2>
-                                ABOUT ME
-                                </h2>
-                                <p>
-                                    I am a college student at Ohio Northern University in Ada, OH.  I am currently working towards my Bachelor's of Science in Computer Engineering.
-                                </p>
-                                <p>
-                                    Aside from school, I am committed to exploring technology on my own.  I am currently working on many projects that include HTML, Raspberry Pi, and Java.
-                                </p>
-                            </div>
-                            
-                        </div>
-                        <div class="col-md-6 col-sm-6">
-                            <div>
-                                <img src="img/about.jpg" class="img-rounded" alt="ONU Picture">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-        <!-- /.container -->
-    </section>
-
-    <!-- Services -->
-    <!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
-    <section id="education" class="bg-primary">
-        <div class="container">
-           <h2 class="text-center"><b>Education</b></h2>
-            <div class="row text-center">
-                <div class="col-lg-6">
-					<h3><b>Ohio Northern University</b></h3>
-               		<h4>B.S. Computer Engineering (ABET Accredited)</h4>
-           		  <h4>Class of 2020</h4>
-               		<h4>GPA: 3.5/4.0</h4>
-               		<p>&nbsp;</p>
-                </div>
-                <div class="col-lg-6">
-					<h3><b>Colonel Crawford High School</b></h3>
-               		<h4>Honors Diploma</h4>
-               		<h4>Class of 2016</h4>
-               		<h4>GPA: 3.5/4.0</h4>
-                </div>
-                <!-- /.col-lg-10 -->
-            </div>
-            <!-- /.row -->
-        </div>
-        <!-- /.container -->
-    </section>
-
-    <section id="organizations">
-        <div class="container">
-          <h2 class="text-center"><b>Organizations</b></h2>
-           <div class="row">
-           	<div class="col-lg-6 text-center">
-           		<h3><u>Current</u></h3>
-           		<h4>Leader's Council</h4>
-           		<h4>Varsity Swimming</h4>
-           	</div>
-           	<div class="col-lg-6 text-center">
-           		<h3><u>Past</u></h3>
-           		<h4>Teen Institute (Youth Board)</h4>
-           		<h4>National Honor's Society</h4>
-           		<h4>Leo Club</h4>
-           		<h4>High School Varsity Swimming (State Qualifier)</h4>
-           		<h4>High School Cross-Country</h4>
-           	</div>
-           </div>
-        </div>
-    </section>
-
-   <section id="workexperience" class="bg-primary">
-   	<div class="container">
-   	  <h2 class="text-center"><strong>IT Work Experience</strong></h2>
-   	  <div class="row text-center">
-   			<div class="col-lg-6">
-   			  <h3><span style="color: #262626"><strong>Buckeye IT</strong>, Tiffin, OH</span></h3>
-   			  <p><em>Summers June 2014 - August 2016</em></p><br>
-   			  <h4><u>Tasks</u></h4>
-		    	<ul>
-		    		<li>Set up Chromebooks for educational use</li>
-		    		<li>Replaced WAP's district-wide</li>
-		    		<li>Troubleshooted basic computer problems</li>
-		    		<li>Maintained and cleaned computers</li>
-		    	</ul>
-   			</div>
-   			<div class="col-lg-6">
-		    	<h3>
-		    	<span style="color: #262626"><strong>Self Employed</strong>, Bucyrus, OH</h3>
-		    	<p><i>2013 - present</i></p><br>
-		    	<h4><u>Tasks</u></h4>
-	    	  <ul>
-		    		<li>Repaired infected computers</li>
-		    		<li>Replaced broken computer hardware</li>
-		    		<li>Fixed basic home networks</li>
-		    		<li>Advised purchase of new electronics</li>
-		    	</ul>
-		    	</span>
-    	</div>
-   		</div>
-   	</div>
-   </section>
-   
-    <!-- Portfolio -->
-    <section id="portfolio" class="portfolio">
-        <div class="container">
-            <div class="row">
-               <h2 class="text-center">Photos From Colorado</h2>
-                <div class="col-lg-4"><img src="img/1.JPG" alt="colorado picture"></div>
-                <div class="col-lg-4"><img src="img/2.JPG" alt="colorado picture"></div>
-                <div class="col-lg-4"><img src="img/3.JPG" alt="colorado picture"></div>
-                <center><a class="button btn btn-lg btn-light" href="https://goo.gl/photos/uEeigLhe9suofrxJ6" target="_blank">View More</a></center>
-            </div>
-			
-            <!-- /.row -->
-        </div>
-        <!-- /.container -->
-    </section>
-
-    <!-- Call to Action -->
-    <section id="contact" class="call-to-action bg-primary">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                  <h3>Click the button below to give me feedback on my website!</h3>
-<!-- Trigger the modal with a button -->
-<button type="button" class="btn btn-lg btn-light" data-toggle="modal" data-target="#myModal">Contact Me!</button>
-
-<!-- Modal -->
-<div id="myModal" class="modal fade" role="dialog">
-  <div class="modal-dialog">
-
-    <!-- Modal content-->
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal">&times;</button>
-      </div>
-      <div class="modal-body">
-        <iframe src="https://docs.google.com/a/onu.edu/forms/d/e/1FAIpQLSfvipAHu43w9rJ28saV-EqJKWiP7K-c72PXy5anDJ_ne7Q4eA/viewform?embedded=true" width="500" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-
-  </div>
-</div>
-</div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Map -->
-    <!-- Footer -->
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-10 col-lg-offset-1 text-center">
-                  <h4><strong>Grant Pfeifer</strong></h4>
-                  
-                    <ul class="list-unstyled">
-                      <li><em class="fa fa-phone fa-fw"></em><a href="tel:4198349477">(419) 834-9477</a></li>
-                      <li><i class="fa fa-envelope-o fa-fw"></i> <a href="mailto:g-pfeifer@onu.edu">g-pfeifer@onu.edu</a>
-                        </li>
-                    </ul>
-                    <br>
-                    <ul class="list-inline">
-                        <li>
-                            <a href="http://facebook.com/grant5"><i class="fa fa-facebook fa-fw fa-3x"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://twitter.com/grantpfeifer"><i class="fa fa-twitter fa-fw fa-3x"></i></a>
-                        </li>
-                    </ul>
-                    <hr class="small">
-                    <p class="text-muted">Copyright &copy; Grant Pfeifer 2017</p>
-                </div>
-            </div>
-        </div>
-        <a id="to-top" href="#top" class="btn btn-dark btn-lg"><i class="fa fa-chevron-up fa-fw fa-1x"></i></a>
-    </footer>
-
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
-
-    <!-- Custom Theme JavaScript -->
-    <script>
-    // Closes the sidebar menu
-    $("#menu-close").click(function(e) {
-        e.preventDefault();
-        $("#sidebar-wrapper").toggleClass("active");
-    });
-    // Opens the sidebar menu
-    $("#menu-toggle").click(function(e) {
-        e.preventDefault();
-        $("#sidebar-wrapper").toggleClass("active");
-    });
-    // Scrolls to the selected menu item on the page
-    $(function() {
-        $('a[href*=#]:not([href=#],[data-toggle],[data-target],[data-slide])').click(function() {
-            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
-                var target = $(this.hash);
-                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-                if (target.length) {
-                    $('html,body').animate({
-                        scrollTop: target.offset().top
-                    }, 1000);
-                    return false;
-                }
-            }
-        });
-    });
-    //#to-top button appears after scrolling
-    var fixed = false;
-    $(document).scroll(function() {
-        if ($(this).scrollTop() > 250) {
-            if (!fixed) {
-                fixed = true;
-                // $('#to-top').css({position:'fixed', display:'block'});
-                $('#to-top').show("slow", function() {
-                    $('#to-top').css({
-                        position: 'fixed',
-                        display: 'block'
-                    });
-                });
-            }
-        } else {
-            if (fixed) {
-                fixed = false;
-                $('#to-top').hide("slow", function() {
-                    $('#to-top').css({
-                        display: 'none'
-                    });
-                });
-            }
-        }
-    });
-    // Disable Google Maps scrolling
-    // See http://stackoverflow.com/a/25904582/1607849
-    // Disable scroll zooming and bind back the click event
-    var onMapMouseleaveHandler = function(event) {
-        var that = $(this);
-        that.on('click', onMapClickHandler);
-        that.off('mouseleave', onMapMouseleaveHandler);
-        that.find('iframe').css("pointer-events", "none");
-    }
-    var onMapClickHandler = function(event) {
-            var that = $(this);
-            // Disable the click handler until the user leaves the map area
-            that.off('click', onMapClickHandler);
-            // Enable scrolling zoom
-            that.find('iframe').css("pointer-events", "auto");
-            // Handle the mouse leave event
-            that.on('mouseleave', onMapMouseleaveHandler);
-        }
-        // Enable map zooming with mouse scroll when the user clicks the map
-    $('.map').on('click', onMapClickHandler);
-    </script>
-
-</body>
-
+	</body>
 </html>
